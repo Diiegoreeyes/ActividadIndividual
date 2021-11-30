@@ -11,11 +11,30 @@ package geometria;
  */
 public class Triangulo implements FiguraGeometrica
 {
+    /**
+     * Atributo de tipo numérico que guarda parte decimal y entera en memoria que 
+     * contiene el valor de la base
+     */
     private double base;
+    
+    /**
+     * Atributo de tipo numérico que guarda parte decimal y entera en memoria que 
+     * contiene el valor de la altura
+     */
+    
     private double altura;
+    /**
+     * Atributo de tipo numérico que guarda parte decimal y entera en memoria que 
+     * contiene el valor del área
+     */
     private double areaTriangulo;
     
 
+    /**
+     * Metodo constructor de la clase Triángulo
+     * @param base valor de la base
+     * @param altura valor de la altura
+     */
     public Triangulo(double base, double altura) 
     {
         this.base = base;
